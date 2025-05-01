@@ -1,9 +1,9 @@
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import AlbumCard from "@/components/AlbumCard";
 import { Button } from "@/components/ui/button";
 import Icon from "@/components/ui/Icon";
-import { v4 as uuidv4 } from "uuid";
+
 
 export interface Album {
   id: string;
