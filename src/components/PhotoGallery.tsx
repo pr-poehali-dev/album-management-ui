@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import Icon from "@/components/ui/Icon";
 import { Slider } from "@/components/ui/slider";
-import { v4 as uuidv4 } from "uuid";
+
 
 interface Photo {
   id: string;
